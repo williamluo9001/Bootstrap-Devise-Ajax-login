@@ -1,0 +1,8 @@
+
+content = "<%= escape_javascript link_to('Sign Out', destroy_user_session_path,  method: :delete, id: 'sign-out-link') %>"
+// console.log(content);
+$('.loginFill').html("<a>Hello <%= current_user.username %> </a>" + content + "").delay(500).fadeIn()
+
+$('.navbar-right').fadeOut()
+$('.pic1').fadeOut()
+$('.Title2').html("<a><h1>You\'re one cool Cat, <%= current_user.username %> </h1> <img src=\"http://33.media.tumblr.com/tumblr_m9hbpdSJIX1qhy6c9o1_400.gif\">").delay(500).fadeIn()

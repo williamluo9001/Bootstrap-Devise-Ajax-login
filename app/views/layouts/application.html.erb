@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loldevise</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <%= link_to 'Home', root_path, :class => 'navbar-brand' %>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="/">Menu<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a id="links" href=""><span data-title="sollicitudin"><p id="bottom">sollicitudin</p></span></a></li>
+            <li><a href="/">Awesome Page 2</a></li>
+            <li><a href="/">Awesome Page 3</a></li>
+          </ul>
+        </li>
+      <div><li class="loginFill"></li></div>
+        <% if current_user.present? %>
+        <div class="menu">
+        <li><a>Hello <%= current_user.username %> </a></li><li><%= link_to('Sign Out', destroy_user_session_path, method: :delete) %></li>
+       
+      </div>
+       
+     
+       <% else %>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+        <li class="button loginbtn"><a><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+        
+
+
+      </ul>
+    </ul>
+      <% end %>
+
+</nav>
+<%= devise_error_messages! %>
+	    </div>
+  </div>
+  <div class="login">
+  <%= form_for(:user, :url => session_path(:user), :remote => true) do |f| %>
+  <p><%= f.text_field :email, placeholder: 'Email' %></p>
+  <p><%= f.password_field :password, placeholder: 'Password' %></p>
+  <%= f.check_box :remember_me %>
+  <%= f.label :remember_me %>
+  <p><%= f.submit 'Sign in', :class => 'loginClick' %></p>
+  <%= link_to "Forgot your password?", new_password_path(:user) %>
+  <br>
+
+	
+       <% end %>
+<li><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+  </div>
+
+ 
+<script>
+$( ".loginbtn" ).click(function() {
+  $( ".login" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
+$('.loginClick').click(function(){
+ $('.loginbtn').trigger('click');
+});
+
+</script>
+        <div style="position: absolute; left: 50%;">
+        <div id="light" class="white_content">
+           <a class="x" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a>
+          
+
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+  
+
+  <p><%= f.label :email %><br>
+  <%= f.email_field :email %></p>
+  <p><%= f.label :Username %><br>
+  <%= f.text_field :username, placeholder: 'Awesome Name' %></p>
+  <p><%= f.label :password %><br>
+  <%= f.password_field :password, placeholder: '8 Character Minimum' %></p>
+
+  <p><%= f.label :password_confirmation %><br>
+  <%= f.password_field :password_confirmation, placeholder: '8 Character Minimum' %></p>
+
+<p><%= f.submit "Sign up" %></p>
+<% end %>
+
+
+       </div>
+     </div>
+
+        <div id="fade" class="black_overlay"></div>
+        <% if current_user.present? %>
+        <div class="Title">
+          <a><h1>You're one cool cat, <%= current_user.username %></h1> </a>
+        </div>
+        <img class="pic2 pic" src="http://33.media.tumblr.com/tumblr_m9hbpdSJIX1qhy6c9o1_400.gif">
+        <% else %>
+
+        <img class="pic1 pic" src="http://i58.tinypic.com/219wizc.jpg">
+
+
+        <% end %>
+</body>
+</html>
+
+
+<%= yield %>
+
+</body>
+</html>

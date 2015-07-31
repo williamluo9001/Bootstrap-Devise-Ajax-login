@@ -1,0 +1,157 @@
+/*
+
+ *= require_tree .
+ *= require_self
+ */
+
+
+.nav {
+	float: none;
+	li {
+		position: static;
+	}
+}
+
+.loginFill {
+
+	display: none;
+}
+
+.loginFill a{
+	color: #9d9d9d;
+	float:left;
+	padding: 15px;
+ }
+
+.loginFill a:hover{
+	text-decoration: none;
+}
+
+li.loginFill {
+	float: right;
+}
+
+.menu {
+	float: right !important;
+	li {
+		display: inline-block;
+		padding: 15px;
+		a {
+			color: #9d9d9d;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.navbar {
+
+	background-color: black;
+	z-index: 100;
+}
+
+
+.navbar {
+	border-radius: 0px !important;
+}
+.navbar-nav {
+	margin: 0 0;
+}
+
+.tag {
+	width:200px;
+	height: auto;
+}
+
+.login {
+	text-align: center;	
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin-top: 45px;
+	padding: 10px 10px;
+	background-color: black;
+	border: 4px solid #606060;
+	display: none;
+	border-right: none;
+}
+
+.login label{
+	color: #808080;
+
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.null {
+	font-size: 20px;
+	cursor: default;
+}
+
+.right {
+	float: right;
+}
+
+.x {
+	float: right;
+	margin-left: -20px;
+	font-size: 35px;
+	
+}
+
+.x:hover {
+	color: #33FFFF;
+}
+
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.white_content {
+	text-align: center;
+	display: none;
+	position: relative;
+	overflow-y: hidden;
+	top: 20%;
+	left: -50%;
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: white;
+	z-index:1002;
+	
+	-webkit-box-shadow: -5px -5px 19px 2px rgba(0,0,0,0.7);
+	-moz-box-shadow: -5px -5px 19px 2px rgba(0,0,0,0.7);
+	box-shadow: -5px -5px 19px 2px rgba(0,0,0,0.7);
+}
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}

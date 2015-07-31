@@ -1,0 +1,136 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar {
+  background-color: #0033CC !important;
+  border: none;
+
+  -webkit-box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+  -moz-box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+  box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+  .dropdown:hover {
+    -webkit-box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+    -moz-box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+    box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+  }
+
+  
+
+  .dropdown {
+    margin-left: 50px;
+  }
+  a {
+    font-size: 16px;
+    color: white !important;
+  }
+  a:hover {
+    color: #0033CC !important;
+  }
+  .dropdown-menu { 
+    background-color: #0033CC;
+  }
+  li:hover {
+    background-color: white;
+  }
+  .navbar-header{
+  
+    position: fixed;
+  }
+  .navbar-header:hover {
+
+    background-color: white;
+    -webkit-box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+    -moz-box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+    box-shadow: 0px 2px 5px 6px rgba(0,0,153,0.81);
+    padding-left: 15px;
+  }
+
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  color: #0033CC !important;
+  background-color: white;
+  }
+
+.Title {
+	text-align: center;
+}
+.Title2 {
+	text-align: center;
+	img {
+		width: 50%;
+	}
+}
+.pic {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+::-webkit-input-placeholder {
+	font-style: italic;
+  
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	font-style: italic;
+ 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	font-style: italic;
+   
+}
+
+:-ms-input-placeholder {  
+	font-style: italic;
+  
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+.Title a{
+	 color:#228DFF;
+  font-family:Iceland;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+.Title2 a{
+	 color:#228DFF;
+  font-family:Iceland;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+body {
+	background-color: white;
+}
+
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+               0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF,
+               0 0 50px #228DFF,
+               0 0 75px #228DFF;
+  }
+}
+
