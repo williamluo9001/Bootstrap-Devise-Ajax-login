@@ -8,6 +8,7 @@ class SessionsController < Devise::SessionsController
 					sign_in(resource_name, resource)
 
 				else
+					render 'errors'
 				end
 			end
 		end

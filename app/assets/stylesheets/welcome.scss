@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.errors {
+  text-align: right;
+  margin-right: 30px;
+  color: red;
+}
 
 .navbar {
   background-color: #0033CC !important;
@@ -98,17 +103,18 @@
   }
 
   .navbar-toggle:hover {
+         .icon-bar{
+    background-color: #0033CC !important;
+    }
     background-color: white !important;
   }
   .navbar-toggle:focus {
+         .icon-bar{
+    background-color: #0033CC !important;
+    }
     background-color: white !important;
   }
 
-  .navbar-toggle:hover {
-     .icon-bar{
-    background-color: #0033CC !important;
-    }
-  }
 
   .navbar {
     .dropdown:hover{
