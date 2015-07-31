@@ -27,6 +27,7 @@
 	text-decoration: none;
 }
 
+
 li.loginFill {
 	float: right;
 }
@@ -41,6 +42,11 @@ li.loginFill {
 		}
 		a:hover {
 			text-decoration: none;
+		}
+	}
+	li:hover {
+		a {
+			color:#0033CC !important;
 		}
 	}
 }

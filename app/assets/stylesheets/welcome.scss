@@ -89,6 +89,10 @@
 
 @media screen and (max-width: 767px) {
 
+  .menu li:hover {
+    background-color: white !important;
+  } 
+
   #links:hover {
     background-color: white !important;
   }
@@ -96,9 +100,10 @@
   .navbar-toggle:hover {
     background-color: white !important;
   }
-  .navbar-toggle:active {
+  .navbar-toggle:focus {
     background-color: white !important;
   }
+
   .navbar-toggle:hover {
      .icon-bar{
     background-color: #0033CC !important;
