@@ -13,68 +13,68 @@ It's not perfect and feel free to make it your own =]
 <tt>Each Pokemon to understand</tt>
 <tt>The power that's inside</tt>
 
-<tt>Pokemon, (gotta catch them all) its you and me
-<tt>I know its my destiny
-<tt>Pokemon, oh, you're my best friend
-<tt>In a world we must defend
+<tt>Pokemon, (gotta catch them all) its you and me</tt>
+<tt>I know its my destiny</tt>
+<tt>Pokemon, oh, you're my best friend</tt>
+<tt>In a world we must defend</tt>
 
-<tt>Pokemon, (gotta catch them all) a heart so true
-<tt>Our courage will pull us through
-<tt>You teach me and I'll teach you
-<tt>(Po-ke-mon) Gotta catch 'em all
+<tt>Pokemon, (gotta catch them all) a heart so true</tt>
+<tt>Our courage will pull us through</tt>
+<tt>You teach me and I'll teach you</tt>
+<tt>(Po-ke-mon) Gotta catch 'em all</tt>
 
-<tt>Every challenge along the way
-<tt>With courage I will face
-<tt>I will battle every day
-<tt>To claim my rightful place
+<tt>Every challenge along the way</tt>
+<tt>With courage I will face</tt>
+<tt>I will battle every day</tt>
+<tt>To claim my rightful place</tt>
 
-<tt>Come with me, the time is right
-<tt>There's no better team
-<tt>Arm in arm we'll win the fight
-<tt>It's always been our dream
+<tt>Come with me, the time is right</tt>
+<tt>There's no better team</tt>
+<tt>Arm in arm we'll win the fight</tt>
+<tt>It's always been our dream</tt>
 
-<tt>Pokemon!
+<tt>Pokemon!</tt>
 
-<tt>(Gotta catch 'em all)
+<tt>(Gotta catch 'em all)</tt>
 
-<tt>It's you and me
-<tt>I know it's my destiny
+<tt>It's you and me</tt>
+<tt>I know it's my destiny</tt>
 
-<tt>Pokemon!
+<tt>Pokemon!</tt>
 
-<tt>Oh, you're my best friend,
-<tt>In a world we must defend.
+<tt>Oh, you're my best friend,</tt>
+<tt>In a world we must defend.</tt>
 
-<tt>Pokemon!
+<tt>Pokemon!</tt>
 
-<tt>A heart so true.
-<tt>Our courage will pull us through.
-<tt>You teach me and I'll teach you.
+<tt>A heart so true.</tt>
+<tt>Our courage will pull us through.</tt>
+<tt>You teach me and I'll teach you.</tt>
 
-<tt>Pokemon!
+<tt>Pokemon!</tt>
 
-<tt>(Gotta catch 'em all)x5
+<tt>(Gotta catch 'em all)x5</tt>
 
-<tt>Pokemon!
+<tt>Pokemon!</tt>
 
-<tt>It's you and me
-<tt>I know it's my destiny
+<tt>It's you and me</tt>
+<tt>I know it's my destiny</tt>
 
-<tt>Pokemon!
+<tt>Pokemon!</tt>
 
-<tt>Oh, you're my best friend,
-<tt>In a world we must defend.
+<tt>Oh, you're my best friend,</tt>
+<tt>In a world we must defend.</tt>
 
-<tt>Pokemon!
+<tt>Pokemon!</tt>
 
-<tt>A heart so true.
-<tt>Our courage will pull us through.
-<tt>You teach me and I'll teach you.
+<tt>A heart so true.</tt>
+<tt>Our courage will pull us through.</tt>
+<tt>You teach me and I'll teach you.</tt>
 
-<tt>POKEMON!
-<tt>Gotta catch'em all!!
-<tt>Gotta catch'em all!!
-<tt>POKEMON!!!
+<tt>POKEMON!</tt>
+<tt>Gotta catch'em all!!</tt>
+<tt>Gotta catch'em all!!</tt>
+<tt>POKEMON!!!</tt>
 
 
 
