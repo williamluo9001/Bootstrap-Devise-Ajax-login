@@ -1,7 +1,7 @@
 == You Guys Are Awesome! 
 It's not perfect and feel free to make it your own =]
 
-<tt>Things I learned.</tt>
+=Things I learned.=
 
 <tt>I wanna be the very best,</tt>
 <tt>Like no one ever was.</tt>
