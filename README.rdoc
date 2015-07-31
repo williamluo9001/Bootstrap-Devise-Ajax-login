@@ -1,7 +1,8 @@
 == You Guys Are Awesome! 
 It's not perfect and feel free to make it your own =]
-<tt>
-*Things I learned
+
+
+<tt>*Things I learned</tt>.
 *I wanna be the very best,
 *Like no one ever was.
 *To catch them is my real test,
@@ -76,4 +77,4 @@ It's not perfect and feel free to make it your own =]
 *POKEMON!!!
 
 
-rake doc:app</tt>.
+
